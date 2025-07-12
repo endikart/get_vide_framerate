@@ -1,0 +1,6 @@
+framework module get_video_framerate {
+  umbrella header "get_video_framerate-umbrella.h"
+
+  export *
+  module * { export * }
+}
