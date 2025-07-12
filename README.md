@@ -1,6 +1,6 @@
 # get_video_framerate
 
-A Flutter plugin for macos to get any platform supported video framerate:
+A Flutter plugin for macos and ios to get any platform supported video framerate:
 
 Example:
 
