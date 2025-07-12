@@ -1,15 +1,9 @@
 # get_video_framerate
 
-A new Flutter plugin project.
+A Flutter plugin for macos and ios to get any platform supported video framerate:
 
-## Getting Started
+Example:
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+<pre>double videoFrameRate = await GetVideoFramerate().getFPS("https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4") ?? -1.0;</pre>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+Iep!
